@@ -1,0 +1,157 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Neela S",
+      "email": "reachmeneela1998@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "saranya P",
+      "email": "saranya@gmail.com",
+      "course": "Python",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "name": "sowmi S",
+      "email": "sowmi@gmail.com",
+      "course": "Angular",
+      "status": "processing"
+    },
+    {
+      "id": 4,
+      "name": "siva S",
+      "email": "reachmeneela1998@gmail.com",
+      "course": "ionic",
+      "status": "verified"
+    },
+    {
+      "id": 5,
+      "name": "vignesh ",
+      "address": "fedf",
+      "mobile": "56465465"
+    },
+    {
+      "id": 6,
+      "name": "gbhh",
+      "address": "hggn",
+      "mobile": "1154"
+    },
+    {
+      "id": 7,
+      "name": "gfgf",
+      "address": "fvfbvfb",
+      "mobile": "fgffvgfv"
+    },
+    {
+      "id": 8,
+      "name": "divya",
+      "address": "22/94,south gate street\n",
+      "mobile": "6383689320"
+    },
+    {
+      "id": 9,
+      "name": "vignesg kumar A",
+      "address": "22/94,southgate street,thiruvithamcode\n",
+      "mobile": "6383689320"
+    },
+    {
+      "id": 10,
+      "name": "",
+      "address": "",
+      "mobile": ""
+    },
+    {
+      "id": 11,
+      "name": "",
+      "address": "",
+      "mobile": ""
+    },
+    {
+      "id": 12,
+      "name": "vignesh ",
+      "address": "2/94,southgate street",
+      "mobile": "63836989320"
+    },
+    {
+      "id": 13,
+      "name": "vinfdefd",
+      "address": "hgji",
+      "mobile": "15165"
+    },
+    {
+      "id": 14,
+      "name": "vignesh kumar ",
+      "address": "dwdfe",
+      "mobile": "632654854"
+    },
+    {
+      "id": 15,
+      "name": "dhamjdb",
+      "address": "mnknjkf",
+      "mobile": "5646"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Neela",
+      "email": "reachmeneela1998@gmail.com",
+      "password": "Baby05neela@",
+      "mobile": 9361281968,
+      "id": 1
+    },
+    {
+      "fullname": "Saranya",
+      "email": "saranya@gmail.com",
+      "password": "saranya",
+      "mobile": 7448616395,
+      "id": 2
+    },
+    {
+      "fullname": "sowmi",
+      "email": "sowmi@gmail.com",
+      "password": "sowmi",
+      "mobile": 9952634562,
+      "id": 3
+    },
+    {
+      "fullname": "jaggu",
+      "email": "reachmeneela1998@gmail.com",
+      "password": "12345",
+      "mobile": 345546545567,
+      "id": 4
+    },
+    {
+      "fullname": "siva",
+      "email": "reachmeneela1998@gmail.com",
+      "password": "123456",
+      "mobile": 9925457222,
+      "id": 5
+    },
+    {
+      "fullname": "vignesh",
+      "email": "vigneshk1409@gmai.com",
+      "password": "vignesh",
+      "mobile": 984369736,
+      "id": 6
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

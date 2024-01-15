@@ -1,0 +1,32 @@
+.card
+{
+    border: none;
+    margin: 10%;
+    width: 500px;
+    padding: 20px;
+    position:absolute;
+    top: 210px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+    
+}
+.text-center
+{
+    color: aliceblue;
+}
+.container
+{
+    top: 500px;
+    padding: 20%;
+    
+    
+}
+.eyeshow
+{
+
+    padding-left:90% ;
+    
+    
+}

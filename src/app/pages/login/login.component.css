@@ -1,0 +1,34 @@
+.card
+{
+    margin: 10%;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    
+}
+.text-center
+{
+    color: aliceblue;
+}
+.eyeshow
+{
+    
+
+    padding-left:90% ;
+    
+    
+}
+i{
+    color: black;
+    margin-top: -32px;
+    position: absolute;
+    /* width: 50px; */
+    /* height: 50px; */
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-left: 8px;
+}
