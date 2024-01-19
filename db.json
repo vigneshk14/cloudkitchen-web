@@ -1,11 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "name": "Neela S",
-      "email": "reachmeneela1998@gmail.com"
-    },
-    {
       "id": 2,
       "name": "saranya P",
       "email": "saranya@gmail.com",
@@ -28,84 +23,36 @@
     },
     {
       "id": 5,
-      "name": "vignesh ",
-      "address": "fedf",
-      "mobile": "56465465"
+      "name": "",
+      "address": "",
+      "mobile": ""
     },
     {
       "id": 6,
-      "name": "gbhh",
-      "address": "hggn",
-      "mobile": "1154"
+      "name": "hjh",
+      "address": "jhj",
+      "mobile": "jgjg"
     },
     {
       "id": 7,
-      "name": "gfgf",
-      "address": "fvfbvfb",
-      "mobile": "fgffvgfv"
+      "name": "",
+      "address": "",
+      "mobile": ""
     },
     {
       "id": 8,
-      "name": "divya",
-      "address": "22/94,south gate street\n",
-      "mobile": "6383689320"
+      "name": "",
+      "address": "",
+      "mobile": ""
     },
     {
       "id": 9,
-      "name": "vignesg kumar A",
-      "address": "22/94,southgate street,thiruvithamcode\n",
-      "mobile": "6383689320"
-    },
-    {
-      "id": 10,
-      "name": "",
-      "address": "",
-      "mobile": ""
-    },
-    {
-      "id": 11,
-      "name": "",
-      "address": "",
-      "mobile": ""
-    },
-    {
-      "id": 12,
-      "name": "vignesh ",
-      "address": "2/94,southgate street",
-      "mobile": "63836989320"
-    },
-    {
-      "id": 13,
-      "name": "vinfdefd",
-      "address": "hgji",
-      "mobile": "15165"
-    },
-    {
-      "id": 14,
-      "name": "vignesh kumar ",
-      "address": "dwdfe",
-      "mobile": "632654854"
-    },
-    {
-      "id": 15,
-      "name": "dhamjdb",
-      "address": "mnknjkf",
-      "mobile": "5646"
-    },
-    {
-      "id": 16,
-      "name": "ef",
-      "address": "fefe",
-      "mobile": "fefe"
+      "name": "vffv",
+      "address": "dfdfdf",
+      "mobile": "fdfdf"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "signupUsers": [
     {
       "fullname": "Neela",
