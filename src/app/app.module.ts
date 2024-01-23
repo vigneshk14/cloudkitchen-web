@@ -14,7 +14,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/sign-up/sign-up.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
-import { OrderdetailsComponent } from './pages/orderdetails/orderdetails.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import { OrderdetailsComponent } from './pages/orderdetails/orderdetails.compone
     FooterComponent,
     LoginComponent,
     SignupComponent,
-    OrderdetailsComponent,
   ],
   imports: [
     BrowserModule,
