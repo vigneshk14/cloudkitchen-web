@@ -17,6 +17,7 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path:'login',component:LoginComponent},
   {path:'sign-up',component:SignupComponent},
+
   
 ];
 
