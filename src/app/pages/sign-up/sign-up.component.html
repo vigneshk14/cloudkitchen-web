@@ -24,8 +24,10 @@
                       <div class="mb-3">
                         <label for="exampleInputPassword2" class="form-label">Password</label>
                         <input type="password" formControlName="password" class="form-control" id="exampleInputPassword2">
-                        <button type="button" class="btn btn-primary mb-2" (click)="togglePasswordVisibility()"><i class="bi bi-eye-slash" id="togglePassword"></i></button>
-                      </div>
+                        <div class="eyeshow" (click)="togglePasswordVisibility()">
+                          <i class="bi bi-eye-slash" style="color: black;" id="togglePassword"></i>
+                          </div>
+                          </div>
                       <button type="submit"  class="btn btn-primary mb-2">Sign up</button>
                     </form>
          <a style="color: #fff; margin-top:10px" routerLink="/login">Already registered? click to Login!!</a>
