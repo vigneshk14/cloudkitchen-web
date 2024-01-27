@@ -14,6 +14,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/sign-up/sign-up.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CartdetailsComponent } from './pages/cartdetails/cartdetails.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     LoginComponent,
     SignupComponent,
+    CartdetailsComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/sign-up/sign-up.component';
+import { CartdetailsComponent } from './pages/cartdetails/cartdetails.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path:'login',component:LoginComponent},
   {path:'sign-up',component:SignupComponent},
+  {path:'cartdetails',component:CartdetailsComponent}
 
   
 ];
