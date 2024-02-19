@@ -19,7 +19,7 @@ export class SignupComponent
     private router: Router) { }
 
   togglePasswordVisibility() {
-      const passwordInput = document.getElementById('exampleInputPassword2') as HTMLInputElement;
+      const passwordInput = document.getElementById('password') as HTMLInputElement;
       passwordInput.type = passwordInput.type === 'text' ? 'password' : 'text';
     }
 
@@ -32,40 +32,29 @@ export class SignupComponent
 
     }) }
     signup() {
-      this.http.get<any>("http://localhost:3000/signupUsers")
-      .subscribe(res => {
-        const user = res.find((a: any) => {
-          return a.email === this.signupForm.value.email && a.password === this.signupForm.value.password;
-        });
-  
-        if (user) {
+      this.http.post<any>("http://localhost:3000/signupUsers", this.signupForm.value)
+      .subscribe(
+        (res) => {
+          // Show a SweetAlert success message
           Swal.fire({
-            position: 'center',
             icon: 'success',
-            title: 'signup Successfully',
-            showConfirmButton: false,
-            timer: 1500
+            title: 'Signup Successful',
+            text: 'You have successfully signed up!',
           });
+  
+          // Reset the form and navigate to login
           this.signupForm.reset();
-          this.router.navigate(['home']);
-        } else {
+          this.router.navigate(['login']);
+        },
+        (err) => {
+          // Show a SweetAlert error message
           Swal.fire({
-            position: 'center',
             icon: 'error',
-            title: 'signup Failed',
-            showConfirmButton: false,
-            timer: 1500
+            title: 'Signup Failed',
+            text: err.message || 'Something went wrong',
           });
         }
-    },err=>{
-      Swal.fire({
-        position: 'center',
-        icon: 'error',
-        title: 'signup Failed',
-        showConfirmButton: false,
-        timer: 1500
-      });
-    })
-  }
-  
-}
+      );
+      }
+
+      }

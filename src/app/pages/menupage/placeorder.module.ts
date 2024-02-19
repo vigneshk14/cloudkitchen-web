@@ -3,6 +3,7 @@ export class placeOrderModel{
     name:string="";
     address?:string;
     mobile?:number;
+    menuData: any;
 
 
 }

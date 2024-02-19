@@ -1,29 +1,33 @@
 <div class="container">
-  <div class="row">
-      <div class="col-md-6">
-          <div class="card">
-              <div class="text-center">
+
+<div class="col-md-6">
+  <div class="card">
+      <div class="text-center">
                   <h1>Login</h1>
                   <h6>Please Enter email & password !!</h6>
           
-              </div>
-              
-                  <form  [formGroup]="loginForm" (ngSubmit)="login()">
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1">
-                      <div class="eyeshow" (click)="togglePasswordVisibility()">
-                      <i class="bi bi-eye-slash" style="color: black;" id="togglePassword"></i>
-                      </div>
-                      </div>
-                      <button type="submit"  class="btn btn-primary" >Login</button>
-                    </form>
-              <a style="color: #fff; margin-top:10px" routerLink="/sign-up">New user? Click to signup!!</a>
-          </div>
       </div>
+      <br>
+
+    <form class="form" [formGroup]="loginForm" (ngSubmit)="login()">
+      
+    <span class="input-span">
+    <label for="email" class="label">Email</label>
+    <input type="email" formControlName="email" class="form-control" id="email"></span>
+
+    <span class="input-span">
+    <label for="password" class="label">Password</label>
+    <input type="password" formControlName="password" class="form-control" id="password" ></span>
+    
+    <div class="eyeshow" (click)="togglePasswordVisibility()">
+      <i class="bi bi-eye-slash" style="color: black;" id="togglePassword"></i>
+      </div>
+    <span class="span"><a href="#">Forgot password?</a></span>
+    <input class="submit" type="submit" value="Log in">
+    
+    <span class="span">Don't have an account? <a routerLink="/sign-up">Sign up</a></span>
+    </form>
   </div>
 </div>
+</div>
+

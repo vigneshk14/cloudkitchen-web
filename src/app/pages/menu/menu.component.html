@@ -11,7 +11,9 @@
                 <p>{{fd.foodDetails}}</p>
                 <p>{{fd.foodPrice | currency:'INR'}}</p>
                 <br/>
-                <a class="buybtn" [routerLink]="['/menu',fd.id]">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+                <a [routerLink]="['/menu',fd.id]"><button class="full-rounded">
+                    <span>Buy Now <i class="bi bi-bag"></i></span>
+                    <div class="border full-rounded"></div></button></a>
             </div>
 
         </div>

@@ -1,30 +1,114 @@
 .card
 {
-    border: none;
-    margin: 10%;
-    width: 500px;
-    padding: 20px;
-    position:absolute;
-    top: 210px;
-    left: 500px;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  margin: 10%;
+  margin-top: 210px ;
+  /* margin-bottom: 46px; */
+  width: 600px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: absolute;
+  top: 160px;
+  left: 580px;
+  transform: translate(-50%, -50%);
+  align-items: center;
+    
+}
+.container{
+    align-items: center;
 
-    
 }
-.text-center
-{
-    color: aliceblue;
-}
-.container
-{
-    top: 500px;
-    padding: 20%;
+
+
+
+form {
+    --bg-light: #efefef;
+    --bg-dark: #707070;
+    --clr: #58BC82;
+    --clr-alpha: #9c9c9c60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 60%;
+  }
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    border-radius: 2.5rem;
+    padding: 1rem 0.75rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-alpha);
+    outline: 2px solid var(--bg-dark);
+  }
+  
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    outline: 2px solid var(--clr);
+  }
+  
+  .label {
+    align-self: flex-start;
+    color: var(--clr);
+    font-weight: 600;
+  }
+  
+  form .submit {
+    padding: 1rem 0.75rem;
+    width: 100%;
     
-    
-}
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 3rem;
+    background-color: var(--bg-dark);
+    color: var(--bg-light);
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: .9rem;
+     /* existing styles */
+  opacity: 1; /* set initial opacity to 1 (visible) */
+  cursor: pointer; /* enable cursor when hovering over button */
+  transition: all 300ms; /* add transition effect */
+  /* new styles for disabled state */
+  &:disabled {
+    opacity: 0.5; /* reduce opacity to indicate disabled state */
+    cursor: not-allowed; /* change cursor to indicate disabled state */
+    background-color: #ccc; /* change background color to indicate disabled state */
+  }
+  }
+  
+  form .submit:hover {
+    background-color: var(--clr);
+    color: var(--bg-dark);
+  }
+  
+  .span {
+    text-decoration: none;
+    color: var(--bg-dark);
+  }
+  
+  .span a {
+    color: var(--clr);
+  }
+
+
+
+  
 .eyeshow
 {
+    
 
     padding-left:90% ;
     
@@ -32,11 +116,11 @@
 }
 i{
     color: black;
-    margin-top: -32px;
+    margin-top: -63px;
     position: absolute;
-    /* width: 50px; */
-    /* height: 50px; */
-    font-size: 20px;
-    /* font-weight: bold; */
-    margin-left: 8px;
+    font-size: 25px;
+    margin-left: -26px;
+    
+    
+   
 }

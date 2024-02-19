@@ -1,1 +1,48 @@
-<p>cartdetails works!</p>
+<app-navbar></app-navbar>
+  <br>
+  <h2>Cart Summary</h2>
+  <br>
+  <table class="table">  <thead>
+      <tr>
+        <th scope="">S.No</th>
+        <th scope="">First Name</th>
+        <th scope="col">Mobile Number</th>
+        <th scope="col">Address</th>
+        <th scope="col">Food Name</th>
+        <th scope="col">Food Image</th>
+        <th scope="col">Food Price</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let orderSummary of orderSummaries; let i = index">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ orderSummary.orderDetails.name }}</td>
+        <td>{{ orderSummary.orderDetails.mobile }}</td>
+        <td>{{ orderSummary.orderDetails.address }}</td>
+        <td>{{ orderSummary.menuData.foodName }}</td>
+        <td><img [src]="orderSummary.menuData.foodImg" alt="Food Image" height="50" width="50"></td>
+        <td>{{ orderSummary.menuData.foodPrice | currency :'INR'}}</td>
+        <td><label class="ui-bookmark">
+  <input type="checkbox" />
+  <div class="bookmark">
+    <svg
+      viewBox="0 0 16 16"
+      style="margin-top:4px"
+      class="bi bi-heart-fill"
+      height="25"
+      width="25"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
+        fill-rule="evenodd"
+      ></path>
+    </svg>
+  </div>
+</label>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <app-footer></app-footer>

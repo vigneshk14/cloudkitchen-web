@@ -17,7 +17,7 @@ export class LoginComponent  {
     private router: Router) { }
 
     togglePasswordVisibility() {
-      const passwordInput = document.getElementById('exampleInputPassword1') as HTMLInputElement;
+      const passwordInput = document.getElementById('password') as HTMLInputElement;
       passwordInput.type = passwordInput.type === 'text' ? 'password' : 'text';
     }
 
